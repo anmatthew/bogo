@@ -181,7 +181,6 @@
 <body>
 <header>
   <h1>BOGO WORDLE</h1>
-  <h3>Daily Wordle with Bogo </h3>
   <div class="date" id="date-label"></div>
 </header>
 <main>
@@ -1109,7 +1108,7 @@ const today = new Date();
 const word = pickWord(today);
 const PUZZLE_NO = daySeed(today);
 document.getElementById("date-label").textContent =
-  "Daily Bogo— " + today.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
+  "Daily Bogo — " + today.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
 
 // --- state ---
 let currentRow = 0;
