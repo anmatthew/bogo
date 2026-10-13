@@ -1140,7 +1140,7 @@ document.getElementById("share-btn").addEventListener("click", (e) => {
   
 function shareText() {
   const lines = [
-    "hhttps://bogo.matthewan.com/ ",
+    "https://bogo.matthewan.com/ ",
     "Bogo Wordle " + PUZZLE_NO.toLocaleString() + " " + results.length + "/" + ROWS
   ];
   for (const r of results) lines.push(r.map((s) => EMOJI[s]).join(""));
